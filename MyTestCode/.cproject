@@ -56,6 +56,7 @@
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.KEEP_ASM.1507337393" name="Keep the generated assembly language (.asm) file (--keep_asm, -k)" superClass="com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.KEEP_ASM" value="true" valueType="boolean"/>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.ASM_LISTING.503488946" name="Generate listing file (--asm_listing, -al)" superClass="com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.ASM_LISTING" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.FP_MODE.680861418" superClass="com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.FP_MODE" value="com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.FP_MODE.relaxed" valueType="enumerated"/>
 								<inputType id="com.ti.ccstudio.buildDefinitions.C2000_18.1.compiler.inputType__C_SRCS.1426912231" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C2000_18.1.compiler.inputType__C_SRCS"/>
 								<inputType id="com.ti.ccstudio.buildDefinitions.C2000_18.1.compiler.inputType__CPP_SRCS.44003948" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C2000_18.1.compiler.inputType__CPP_SRCS"/>
 								<inputType id="com.ti.ccstudio.buildDefinitions.C2000_18.1.compiler.inputType__ASM_SRCS.1858460057" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C2000_18.1.compiler.inputType__ASM_SRCS"/>

@@ -1,9 +1,22 @@
+	.sect	".text"
+	.global	_sumtest2
+_sumtest2:
+	ADDB      SP,#4
+	MOV       *-SP[2],AH
+	MOV       *-SP[1],AL
+	MOV       AL,*-SP[2]
+	ADD       AL,*-SP[1]
+	MOV       *-SP[3],AL
+	SUBB      SP,#4
+	LRETR
 
-       .def _F28x_usDelays
-       .sect ".TI.ramfunc"
-
-        .global  __F28x_usDelays
-_F28x_usDelays:
-        SUB    ACC,#1
-        BF     _F28x_usDelays,GEQ    ;; Loop if ACC >= 0
-        LRETR
+	.global	_sumtest3
+_sumtest3:
+	ADDB      SP,#4
+	MOV       *-SP[2],AH
+	MOV       *-SP[1],AL
+	MOV       AL,*-SP[2]
+	ADD       AL,*-SP[1]
+	MOV       *-SP[3],AL
+	SUBB      SP,#4
+	LRETR

@@ -5,5 +5,17 @@
  *      Author: qd
  */
 
+int g_test1;
+int x,y;
 
-int var_test;
+int sumtest(void)
+{
+    if(x > y)
+    {
+        return x * y;
+    }
+    else
+    {
+        return x + g_test1;
+    }
+}
