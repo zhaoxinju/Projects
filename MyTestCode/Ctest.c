@@ -12,12 +12,12 @@ int sumtest(void)
 {
     if(x > y)
     {
-        return x * y;
+        return x * g_test1;
     }
     else
     {
         return x + g_test1;
     }
 	
-	return;
+ 	return 0;
 }
