@@ -18,4 +18,6 @@ int sumtest(void)
     {
         return x + g_test1;
     }
+	
+	return;
 }
