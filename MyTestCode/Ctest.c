@@ -26,3 +26,8 @@ void test1(void)
 {
 	return;
 }
+
+void test2(void)
+{
+	return;
+}
