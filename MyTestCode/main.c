@@ -13,12 +13,10 @@ int main(void)
     InitGpio();
 
     DINT;
-	
     InitPieCtrl();
     IER = 0x0000;
     IFR = 0x0000;
     InitPieVectTable();
-	
     EINT;
 
     while(1)
