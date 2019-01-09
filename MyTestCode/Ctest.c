@@ -12,7 +12,7 @@ int sumtest(void)
 {
     if(x > y)
     {
-        return x * g_test1;
+        return x * y;
     }
     else
     {
