@@ -10,9 +10,10 @@ int x,y;
 
 int sumtest(void)
 {
-	if(x > y)
+	
+    if(x > y)
     {
-        return y * y;
+        return g_test1 * g_test1;
     }
     else
     {
