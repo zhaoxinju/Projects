@@ -36,3 +36,8 @@ void test3(void)
 {
 	return;
 }
+
+void test4(void)
+{
+	return;
+}
