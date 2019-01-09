@@ -16,7 +16,7 @@ int sumtest(void)
     }
     else
     {
-        return x + g_test1;
+        return x + y;
     }
 	
  	return 0;
