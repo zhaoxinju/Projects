@@ -21,3 +21,8 @@ int sumtest(void)
 	
  	return 0;
 }
+
+void test1(void)
+{
+	return;
+}
