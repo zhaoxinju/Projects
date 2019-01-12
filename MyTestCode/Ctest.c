@@ -41,9 +41,3 @@ void test4(void)
 {
 	return;
 }
-
-/*增加功能test5*/
-void test5(void)
-{
-    return;
-}
