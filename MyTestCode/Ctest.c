@@ -32,12 +32,22 @@ void test2(void)
 	return;
 }
 
+void test22(void)
+{
+	return;
+}
+
 void test3(void)
 {
 	return;
 }
 
 void test4(void)
+{
+	return;
+}
+
+void test5(void)
 {
 	return;
 }
